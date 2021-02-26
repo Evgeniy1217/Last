@@ -1,0 +1,27 @@
+.retreat{
+    height: 3rem;
+}
+.list-trackArtist {
+    list-style: none;
+    counter-reset: list;
+    margin-left: -4.5rem;
+    margin-top: .2rem;
+}
+.list-trackArtist>li {
+    position: relative;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: .5rem;
+    margin-left: .75rem;
+    margin-bottom: .25rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    color: #fff;
+    background: #7b1fa2;
+    white-space: nowrap;
+    border-radius: .25rem
+}
+.list-trackArtist>li:last-child {
+    margin-bottom: 0;
+}

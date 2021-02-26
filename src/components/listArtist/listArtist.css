@@ -1,0 +1,28 @@
+.retreat{
+    height: 2.45rem;
+    margin-top: 2rem;
+}
+.list-track {
+    list-style: none;
+    counter-reset: list;
+    margin: 0;
+    padding: 0;
+}
+.list-counter-square>li {
+    position: relative;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+    margin-left: -2.5rem;
+    margin-bottom: .25rem;
+    padding-left: 0.5rem;
+    padding-right: .5rem;
+    color: #fff;
+    background: #7b1fa2;
+    white-space: nowrap;
+    border-radius: .25rem
+}
+.list-counter-square>li:last-child {
+    margin-bottom: 0;
+}
